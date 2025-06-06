@@ -1,0 +1,106 @@
+body{
+    font-family: helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+#header_top{
+    background-color: darkslategray;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+#header_down{
+    height: 40px;
+    box-shadow: 5px 5px 5px grey;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#menusx{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#central{
+    float: left;
+    margin-top: 30px;
+    width:60%;
+}
+
+#footer{
+    height:40px;
+    box-shadow: 5px 5px 5px grey;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.buttonform{
+    background-color: darkslategray;
+    min-width : 60px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+.buttonform:hover{
+    opacity: 0.6;
+    
+}
+
+.titolo_bianco{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.formlogin{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.titolo_dark{
+    font-size: 20px;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.menubutton{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.table_output{
+    min-width:80%;
+}
+.cella{  
+    border-bottom: 1px solid grey;
+}
+
+@media screen and (max-width: 768px){
+    #menusx, #central{
+        float: none;
+        display: block;
+        width:90%;
+        margin-left: 5%;
+    }
+}
+
+input:invalid {
+    border-color: red;
+}
+input, input:valid{
+    border-color: blue;
+}
+
